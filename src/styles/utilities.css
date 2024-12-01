@@ -1,0 +1,26 @@
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Swiper Custom Styles */
+.luxury-swiper .swiper-button-next,
+.luxury-swiper .swiper-button-prev {
+  color: var(--color-luxury-gold);
+}
+
+.luxury-swiper .swiper-pagination-bullet {
+  background-color: var(--color-luxury-gold);
+}
+
+.luxury-swiper .swiper-pagination-bullet-active {
+  background-color: var(--color-luxury-gold);
+}

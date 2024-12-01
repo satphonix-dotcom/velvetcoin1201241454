@@ -1,0 +1,18 @@
+:root {
+  --color-luxury-black: #000000;
+  --color-luxury-charcoal: #1A1A1A;
+  --color-luxury-cream: #F5F5DC;
+  --color-luxury-gold: #C6A55C;
+  --color-luxury-gold-light: #D4B872;
+}
+
+@layer base {
+  /* Theme variables */
+  .theme-luxury {
+    --primary-bg: var(--color-luxury-black);
+    --secondary-bg: var(--color-luxury-charcoal);
+    --primary-text: var(--color-luxury-cream);
+    --accent: var(--color-luxury-gold);
+    --accent-light: var(--color-luxury-gold-light);
+  }
+}
